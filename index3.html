@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Bootstrap 的 CSS 文件 -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index3.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- navbar-->
+    <nav class="nav-box">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <ul>
+            <li><a href="homePage.html">Home</a></li>
+            <li><a href="index2.html">About</a></li>
+            <li> <a href="index1.html">Shop</a></li>
+            <li>Help</li>
+            <li><a href="index3.html">Your Cart</a></li>
+        </ul>
+    </nav>
+    <!-- 3 main options -shopping cart , shopping detail , payment options  -->
+    <div class="shopping-tab">
+        <div class="tab-box">
+            <div class="tab active" data-page="shopping-cart-page">1.shopping Cart</div>
+            <div class="tab " data-page="shopping-detail-page">2.shopping Detail</div>
+            <div class="tab" data-page="payment-options-page">3.Payment Options</div>
+            <div class="line"></div>
+        </div>
+
+    </div>
+
+    <!-- 1.shopping Cart -->
+    <div class="shopping-cart-page shopping-cart ">
+        <div class="shopping-detail">
+            <div class="title">
+                Shopping Cart
+            </div>
+
+            <div class="product">
+                <img src="img/product-03-3.jpg" alt="">
+                <div class="info">
+                    <div>PRODUCT NAME</div>
+                    <div>$300</div>
+                </div>
+                <div class="input-box">
+                    <input type="number" class="form-control">
+                    <span class="plus-box">
+                        <span class="plus" data-price="300">+</span>
+                    <span class="minus" data-price="300">-</span>
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div class="product">
+                <img src="img/product-05-3.jpg" alt="">
+                <div class="info">
+                    <div>PRODUCT NAME</div>
+                    <div>$300</div>
+                </div>
+                <div class="input-box">
+                    <input type="number" class="form-control">
+                    <span class="plus-box">
+                        <span class="plus" data-price="300">+</span>
+                    <span class="minus" data-price="300">-</span>
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div class="line"></div>
+            <br>
+            <div>
+                <button type="submit" class="btn btn-primary mb-2">Pay Now</button>
+                <button type="submit" class="btn btn-secondary mb-2">Cancel</button>
+            </div>
+        </div>
+
+        <div class="summary">
+            <div class="title">Summary</div>
+            <h4>ENTER COUPON CODE</h4>
+            <div class="line"></div>
+            <br>
+            <div class="total-box">
+                <span>SUBTOTAL</span>
+                <span>$600</span>
+            </div>
+            <div class="total-box">
+                <span>SHOPPING</span>
+                <span>FREE</span>
+            </div>
+            <div class="total-box">
+                <span>TEXES</span>
+                <span>$13</span>
+            </div>
+            <br>
+            <div class="line"></div>
+            <br>
+            <div class="total-box big">
+                <span>TOTAL</span>
+                <span>$<span class="total">613</span></span>
+            </div>
+        </div>
+        <br>
+
+        <br>
+    </div>
+    <!-- 2.shopping Detail -->
+    <div class="shopping-detail-page shopping-detail-box">
+
+        <div class="shopping-detail">
+            <div class="title">
+                Shopping Detail
+            </div>
+            <form class="shopping-detail-form">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Address">
+                    </div>
+
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Address2">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <select class="form-control">
+                            <option>Country</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="City">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Zip/Postal Code">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Phone Number">
+                    </div>
+                </div>
+                <br>
+                <div class="line"></div>
+                <br>
+                <div class="time-box">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="option1" value="option1">
+                        <div>
+                            <div>Free Shipping</div>
+                            <div>Between2-5 working days</div>
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="option2" value="option2">
+                        <div>
+                            <div>Next Day Delivery - $20</div>
+                            <div>24 hours from checkout</div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="line"></div>
+                <br>
+                <div>
+                    <button type="submit" class="btn btn-primary mb-2">Next</button>
+                    <button type="submit" class="btn btn-secondary mb-2">Cancel</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="summary">
+            <div class="title">Summary</div>
+            <br>
+            <div class="product">
+                <img src="img/product-03-3.jpg" alt="">
+                <div class="info">
+                    <div>PRODUCT NAME</div>
+                    <div>$300</div>
+                </div>
+            </div>
+            <br>
+            <div class="product">
+                <img src="img/product-05-3.jpg" alt="">
+                <div class="info">
+                    <div>PRODUCT NAME</div>
+                    <div>$300</div>
+                </div>
+            </div>
+            <br>
+            <div class="line"></div>
+            <br> HAVE A VOUCHER?
+            <br>
+            <br>
+            <div class="line"></div>
+            <br>
+            <div class="total-box">
+                <span>SUBTOTAL</span>
+                <span>$600</span>
+            </div>
+            <div class="total-box">
+                <span>SHOPPING</span>
+                <span>FREE</span>
+            </div>
+            <div class="total-box">
+                <span>TEXES</span>
+                <span>$13</span>
+            </div>
+            <br>
+            <div class="line"></div>
+            <br>
+            <div class="total-box big">
+                <span>TOTAL</span>
+                <span>$613</span>
+            </div>
+        </div>
+        <br>
+
+        <br>
+    </div>
+    <!-- 3.Payment Options -->
+    <div class="payment-options-page shopping-detail-box payment-options">
+
+        <div class="shopping-detail">
+            <div class="title">
+                Payment method
+            </div>
+            <div class="paypal-box">
+
+            </div>
+
+            <div class="credit-box">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="option3" value="option1">
+                <label class="title" for="option3">
+                    <div>Credit Card</div>
+                    <div>Lorem ipsurn dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
+                </label>
+                <div class="h-card-box">
+                    <div class="input-group h-card mb-3 mr-3" style="width: 70%;">
+                        <input type="text" class="form-control" placeholder="0000 0000 0000 0000" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <i class="bi bi-credit-card"></i>
+                        </div>
+                    </div>
+                    <div class="input-group h-card mb-3 mr-3">
+                        <input type="text" class="form-control" placeholder="MM/YY" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    </div>
+                    <div class="input-group h-card mb-3">
+                        <input type="text" class="form-control" placeholder="CVV" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <i class="bi bi-patch-exclamation"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group h-card mb-3" style="width: 100%;">
+                    <input type="text" class="form-control" placeholder="Card Holder Name" aria-label="Recipient's username" aria-describedby="button-addon2">
+                </div>
+            </div>
+
+            <br>
+            <div class="line"></div>
+            <br>
+            <div class="credit-box paypal">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="option4" value="option4">
+                <label class="title" for="option4" style="border: 0; width: ;">
+                    <div>PayPal</div>
+                    <div>Lorem ipsum dolor sit amet, consectctur adipiscingelit,
+                        sed do ciusmod tempor incididunt ut labore</div>
+                </label>
+                <div class="h-icon">
+                    <i style="font-size: 50px;" class="bi bi-paypal"></i>
+                    <span style="font-size: 50px;">PayPal</span>
+                </div>
+
+            </div>
+            <br>
+            <div>
+                <button type="submit" class="btn btn-primary mb-2">Pay Now</button>
+                <button type="submit" class="btn btn-secondary mb-2">Cancel</button>
+            </div>
+        </div>
+
+        <div class="summary">
+            <div class="title">Summary</div>
+            <br>
+            <div class="product">
+                <img src="img/product-03-3.jpg" alt="">
+                <div class="info">
+                    <div>PRODUCT NAME</div>
+                    <div>$300</div>
+                </div>
+            </div>
+            <br>
+            <div class="product">
+                <img src="img/product-05-3.jpg" alt="">
+                <div class="info">
+                    <div>PRODUCT NAME</div>
+                    <div>$300</div>
+                </div>
+            </div>
+            <br>
+            <div class="line"></div>
+            <br> HAVE A VOUCHER?
+            <br>
+            <br>
+            <div class="line"></div>
+            <br>
+            <div class="total-box">
+                <span>SUBTOTAL</span>
+                <span>$600</span>
+            </div>
+            <div class="total-box">
+                <span>SHOPPING</span>
+                <span>FREE</span>
+            </div>
+            <div class="total-box">
+                <span>TEXES</span>
+                <span>$13</span>
+            </div>
+            <br>
+            <div class="line"></div>
+            <br>
+            <div class="total-box big">
+                <span>TOTAL</span>
+                <span>$613</span>
+            </div>
+        </div>
+        <br>
+
+        <br>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="footer-box">
+        <div class="nav">
+            <div class="item">Home</div>
+            <div class="item">About</div>
+            <div class="item">Shop</div>
+            <div class="item">Help</div>
+        </div>
+        <div class="info">
+            <img src="img/logo.png" alt=""> You Company Name
+        </div>
+    </div>
+    <div style="display: none" id="hvalue">613</div>
+
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+        function init() {
+            $('.shopping-detail-page').hide()
+            $('.payment-options-page').hide()
+            $('.shopping-cart-page').show()
+        }
+
+        $(document).ready(function() {
+            init()
+            $('.tab').click(function() {
+                $('.tab-box .tab').attr('class', 'tab')
+                $(this).attr('class', 'tab active')
+                $('.shopping-detail-page').hide()
+                $('.shopping-cart-page').hide()
+                $('.payment-options-page').hide()
+                $(`.${$(this)[0].dataset.page}`).show()
+
+            })
+
+            function setCheckout(dom, checked = false) {
+                dom.children().eq(0).prop("checked", checked)
+                dom.attr('class', checked ? 'form-check active' : 'form-check')
+            }
+            $('div.form-check').click(function() {
+                const siblings = $(this).siblings('div')
+                $('.form-check').each(function() {
+                    setCheckout($(this), false)
+                })
+                setCheckout($(this), true)
+            })
+            $('.plus').click(function() {
+                const input = $(this).parents('.plus-box').siblings('input')
+                const price = Number($(this).data().price)
+                const num = Number(input.val())
+                input.val(num + 1)
+
+                let number = Number($('#hvalue').text());
+                $('#hvalue').text(number + price)
+
+                const total = Number($('#hvalue').text())
+
+                if (total > 2000) {
+                    $('.total').text("freeshipping")
+                } else {
+                    $('.total').text(total)
+                }
+
+            })
+            $('.minus').click(function() {
+                const input = $(this).parents('.plus-box').siblings('input')
+                const price = Number($(this).data().price)
+                console.log(638, input.val());
+                const num = Number(input.val())
+                if (num) {
+                    input.val(num - 1)
+
+                    let number = Number($('#hvalue').text());
+                    $('#hvalue').text(number - price)
+
+                    const total = Number($('#hvalue').text())
+
+                    if (total > 2000) {
+                        $('.total').text("freeshipping")
+                    } else {
+                        $('.total').text(total)
+                    }
+                }
+
+
+            })
+        })
+    </script>
+</body>
+
+</html>

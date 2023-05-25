@@ -1,0 +1,146 @@
+.product-title-box {
+    display: flex;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.product-title-box img {
+    width: 50%;
+    border-right: 1px solid #999999;
+}
+
+.product-title-box .info-box {
+    width: 50%;
+    padding: 30px;
+}
+
+.product-title-box .info-box .title-box {}
+
+.product-title-box .info-box .title-box .title-box {
+    font-size: 50px;
+}
+
+.product-title-box .info-box .title-box .feedback-box {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #999999;
+}
+
+.product-title-box .info-box .title-box .feedback-box .star-box {
+    margin-right: 20px;
+}
+
+.product-title-box .info-box .title-box .attr-box {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #999999;
+}
+
+.product-title-box .info-box .title-box .attr-box .price {
+    width: 200px;
+    font-size: 20px;
+}
+
+.product-title-box .info-box .title-box .desc-box {
+    color: #999999;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    position: relative;
+}
+
+.product-title-box .info-box .title-box .desc-box:before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #999999;
+    bottom: 0;
+    left: 0;
+}
+
+.similar-product-box {
+    border-bottom: 1px solid #999999;
+    padding-bottom: 30px;
+}
+
+.similar-product-box .title {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+.similar-product-box .product-box {
+    display: flex;
+}
+
+.similar-product-box .product-box .product {
+    width: 50%;
+    box-sizing: border-box;
+    text-underline: none;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.similar-product-box .product-box .product img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #999999;
+    margin-right: 10px;
+}
+
+.similar-product-box .product-box .product .info {
+    color: #999999;
+}
+
+.reviews-box {
+    padding: 30px;
+    border-bottom: 1px solid #999;
+}
+
+.reviews-box .title {
+    font-size: 45px;
+}
+
+.reviews-box .reviews-list {}
+
+.reviews-box .reviews-list .review {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.reviews-box .reviews-list .review .avatar-box {
+    display: flex;
+    align-items: flex-start;
+    width: 300px;
+    border-top: 1px solid #999999;
+    padding-top: 20px;
+}
+
+.reviews-box .reviews-list .review:first-child .avatar-box {
+    border-top: none;
+}
+
+.reviews-box .reviews-list .review .avatar-box img {
+    border-radius: 50%;
+    border: 1px solid #999999;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.reviews-box .reviews-list .review .avatar-box .user-box {}
+
+.reviews-box .reviews-list .review .avatar-box .user-box .name {}
+
+.reviews-box .reviews-list .review .avatar-box .user-box .time {}
+
+.reviews-box .reviews-list .review .desc-box {
+    padding-top: 20px;
+}

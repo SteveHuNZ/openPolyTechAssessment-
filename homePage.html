@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link rel="stylesheet" href="./css/homePage.css">
+    <style>
+        /* .head-left {
+            display: flex;
+        }
+        
+        .head-left .input-group {
+            margin-left: 15px;
+        }
+        
+        .desc-box {
+            color: #999999;
+            padding: 60px;
+            font-size: 32px;
+            position: relative;
+            text-align: center;
+            font-weight: 200;
+        }
+        
+        .shop-list-box {
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0 auto;
+        }
+        
+        .shop-list-box .item {
+            width: 200px;
+            box-sizing: content-box;
+            margin: 0 30px 40px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .shop-list-box .item:hover {
+            opacity: 0.8;
+        }
+        
+        .shop-list-box .item img {
+            display: block;
+            width: 100%;
+            border: 1px solid #999999;
+        }
+        
+        .shop-now {
+            text-align: center;
+        }
+        
+        .shop-now .btn {
+            padding: 10px 60px;
+            border-radius: 0;
+            margin-bottom: 60px !important;
+        }
+        
+        .line {
+            width: 20%;
+            height: 1px;
+            border: 1px solid #f6f6f6;
+            margin: 0 auto 40px;
+        }
+        
+        .line2 {
+            width: 100%;
+            height: 1px;
+            border: 1px solid #f6f6f6;
+        }
+        
+        .title {
+            padding: 40px 0 20px;
+            font-size: 36px;
+        }
+        
+        .new-sletter {
+            padding: 30px 70px;
+        }
+        
+        .new-sletter-title {
+            font-size: 30px;
+            color: #535353;
+            font-weight: 200;
+        }
+        
+        .new-sletter-content {
+            display: flex;
+            align-items: center;
+        }
+        
+        .new-sletter-content .left {
+            flex: 1;
+            font-size: 12px;
+            color: #c9c4c4;
+        }
+        
+        .new-sletter-content .right {
+            flex: 1;
+            display: flex;
+            margin-left: 50px;
+        }
+        
+        .new-sletter-content .right .form-control {
+            flex: 2;
+            margin-right: 10px;
+        }
+        
+        .new-sletter-content .right .subscribe {
+            flex: 1;
+            border: 0;
+            color: #7b7979;
+        }
+        
+        .good-wrap {
+            padding: 50px 60px;
+            display: flex;
+        }
+        
+        .good-wrap .card-item {
+            flex: 1;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .good-wrap .card-item .good-item {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .good-wrap .card-item .good-item img {
+            border: 1px solid #d3d2d2;
+            display: block;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .good-wrap .card-item .good-item .bottom {
+            margin: 5px 0 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+        }
+        
+        .good-wrap .card-item .good-item .bottom .left {
+            font-size: 12px;
+            color: #c9c4c4;
+            line-height: 16px;
+            flex: 1;
+        }
+        
+        .good-wrap .card-item .good-item .bottom .right img {
+            width: 10px;
+            height: 10px;
+            display: inline;
+            border: 0;
+        }
+        
+        .right-img {
+            height: 463px !important;
+        }
+        
+        .introduce {
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .introduce-title {
+            color: #999999;
+            font-size: 32px;
+            position: relative;
+            text-align: center;
+            font-weight: 200;
+        }
+        
+        .introduce-info {
+            font-size: 12px;
+            color: #c9c4c4;
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .carousel-title {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        
+        .footer {
+            padding: 30px 60px;
+            display: flex;
+            align-items: start;
+        }
+        
+        .footer .logo {
+            flex: 2;
+        }
+        
+        .footer .logo img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        
+        .footer .logo .address {
+            font-size: 12px;
+            color: #c9c4c4;
+        }
+        
+        .footer .foot-item {
+            flex: 1;
+        }
+        
+        .footer .foot-item .foot-item-head {
+            font-size: 16px;
+            color: #ababab;
+            margin-bottom: 10px;
+        }
+        
+        .footer .foot-item .foot-item-content {
+            font-size: 14px;
+            color: #b7b6b6;
+            margin-bottom: 5px;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="nav-box">
+        <!-- logo  -->
+        <div class="logo head-left">
+            <img src="img/logo.png" alt="">
+
+            <!-- search bar  -->
+            <div class="input-group mb-2">
+
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="search">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">🔍</div>
+                </div>
+            </div>
+        </div>
+        <!-- navigation bar  -->
+        <!-- manue - go to different pages  -->
+        <ul>
+            <li>
+                <a href="homePage.html">Home</a>
+            </li>
+            <li><a href="index2.html">About</a></li>
+            <li><a href="index1.html">Shop</a></li>
+            <li>Help</li>
+            <li><a href="index3.html">Your Cart</a></li>
+        </ul>
+    </nav>
+    <!-- header finished  -->
+    <div class="desc-box">
+        Happy time shopping center
+    </div>
+
+    <div class="line"></div>
+    <!-- three miain products  -->
+
+    <div class="shop-list-box">
+        <div class="item">
+            <img src="img/iphone1.png" alt="">
+        </div>
+        <div class="item">
+            <img src="img/g1.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="img/product-06-2.jpg" alt="">
+        </div>
+    </div>
+    <!-- shopping now button  -->
+
+    <div class="shop-now">
+        <button class="btn btn-primary mb-2">Shop Now</button>
+    </div>
+    <div class="line2"></div>
+    <div class="desc-box title">
+        Featured Products
+        <div class="students">
+
+            <!-- carousel- shows different slides - has left and right buttons  -->
+            <div id="four_flash">
+                <div class="but_left"><img src="img/qianxleft.png" /></div>
+                <div class="flashBg">
+                    <ul class="mobile">
+                        <li>
+                            <img src="img/i1.png" />
+                            <div class="carousel-title">PRODUCT NAME</div>
+                            <div class="carousel-title">$300</div>
+                        </li>
+                        <li>
+                            <img src="img/i2.png" />
+                            <div class="carousel-title">PRODUCT NAME</div>
+                            <div class="carousel-title">$300</div>
+                        </li>
+                        <li>
+                            <img src="img/i3.png" />
+                            <div class="carousel-title">PRODUCT NAME</div>
+                            <div class="carousel-title">$300</div>
+                        </li>
+                        <li>
+                            <img src="img/i4.png" />
+                            <div class="carousel-title">PRODUCT NAME</div>
+                            <div class="carousel-title">$300</div>
+                        </li>
+                        <li>
+                            <img src="img/i5.png" />
+                            <div class="carousel-title">PRODUCT NAME</div>
+                            <div class="carousel-title">$300</div>
+                        </li>
+                        <li>
+                            <img src="img/i6.png" />
+                            <div class="carousel-title">PRODUCT NAME</div>
+                            <div class="carousel-title">$300</div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="but_right"><img src="img/qianxr.png" /></div>
+            </div>
+        </div>
+    </div>
+    <div class="line2"></div>
+
+    <!-- newsletter part  -->
+
+    <div class="new-sletter">
+        <div class="new-sletter-title">Newsletter</div>
+        <div class="new-sletter-content">
+            <div class="left">Lorem ipsum dolor sit amet, consecterur adipiscion elit. Nullaquam velit, vulputate eu pharetra nec, mattis ac neque.</div>
+            <div class="right">
+                <input type="text" class="form-control" placeholder="Email address " />
+                <button class="subscribe">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <div class="line2"></div>
+    <!-- nesletter part finished  -->
+
+
+    <!-- products show  -->
+    <div class="good-wrap">
+        <div class="card-item">
+            <div>
+                <!-- fist big picture  -->
+                <div class="good-item">
+                    <img src="img/product-05.jpg" alt="" class="right-img">
+                    <div class="bottom">
+                        <div class="left">
+                            <div>PRODUCT NAME</div>
+                            <div>$300</div>
+                        </div>
+                        <div class="right">
+                            <img src="img/g1.jpg" alt="">
+                            <img src="img/star1.png" alt="">
+                            <img src="img/star1.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- left top picture  -->
+        <div class="card-item">
+            <div class="good-item">
+                <img src="img/i1.png" alt="">
+                <div class="bottom">
+                    <div class="left">
+                        <div>PRODUCT NAME</div>
+                        <div>$300</div>
+                    </div>
+                    <div class="right">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- right top pic  -->
+            <div class="good-item">
+                <img src="img/i6.png" alt="">
+                <div class="bottom">
+                    <div class="left">
+                        <div>PRODUCT NAME</div>
+                        <div>$300</div>
+                    </div>
+                    <div class="right">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bottom left picture  -->
+        <div class="card-item">
+            <div class="good-item">
+                <img src="img/i3.png" alt="">
+                <div class="bottom">
+                    <div class="left">
+                        <div>PRODUCT NAME</div>
+                        <div>$300</div>
+                    </div>
+                    <div class="right">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- bottom right pictue  -->
+            <div class="good-item">
+                <img src="img/i4.png" alt="">
+                <div class="bottom">
+                    <div class="left">
+                        <div>PRODUCT NAME</div>
+                        <div>$300</div>
+                    </div>
+                    <div class="right">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star1.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about your shop  -->
+    <div class="line2"></div>
+    <div class="introduce">
+        <div class="introduce-title">Our shop's story </div>
+        <div class="introduce-info">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,totam rem aperiam,eaque ipsa quae ab illo inventore veritatis et quasi</div>
+    </div>
+    <!-- footer part  -->
+    <div class="line2"></div>
+    <div class="footer">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+            <div class="address">1717 Harrison St, San Francisco,</div>
+            <div class="address">CA94103, USA</div>
+        </div>
+        <div class="foot-item">
+            <div class="foot-item-head">MAIN MENU</div>
+            <div class="foot-item-content">Home</div>
+            <div class="foot-item-content">About</div>
+            <div class="foot-item-content">Shop</div>
+            <div class="foot-item-content">Help</div>
+        </div>
+        <div class="foot-item">
+            <div class="foot-item-head">COMPANY</div>
+            <div class="foot-item-content">The Company</div>
+            <div class="foot-item-content">Careers</div>
+            <div class="foot-item-content">Press</div>
+        </div>
+        <div class="foot-item">
+            <div class="foot-item-head">DISCOVER</div>
+            <div class="foot-item-content">The Team</div>
+            <div class="foot-item-content">Our History</div>
+            <div class="foot-item-content">Brand Motto</div>
+        </div>
+        <div class="foot-item">
+            <div class="foot-item-head">FIND US ON</div>
+            <div class="foot-item-content">Facebook</div>
+            <div class="foot-item-content">Twitter</div>
+            <div class="foot-item-content">Instagram</div>
+        </div>
+    </div>
+
+
+
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
+        //学员
+        var _index5 = 0;
+        var _width = $("#four_flash .flashBg").width();
+        console.log(_width);
+        var liWidth = (_width - 78) / 2;
+        console.log(liWidth);
+        $("#four_flash .flashBg ul.mobile li").css('width', liWidth);
+        $("#four_flash .but_right img").click(function() {
+            _index5++;
+            var len = $(".flashBg ul.mobile li").length;
+            if (_index5 + 5 > len) {
+                $("#four_flash .flashBg ul.mobile").stop().append($("ul.mobile").html());
+            }
+            $("#four_flash .flashBg ul.mobile").stop().animate({
+                left: -_index5 * (liWidth + 26)
+            }, 1000);
+        });
+
+
+        $("#four_flash .but_left img").click(function() {
+            if (_index5 == 0) {
+                $("ul.mobile").prepend($("ul.mobile").html());
+                $("ul.mobile").css("left", "-1380px");
+                _index5 = 6
+            }
+            _index5--;
+            $("#four_flash .flashBg ul.mobile").stop().animate({
+                left: -_index5 * 326
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>

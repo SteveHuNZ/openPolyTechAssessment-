@@ -1,0 +1,170 @@
+h1.title {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.sub-nav-box .container h1 {
+    margin-top: 0;
+}
+
+.sub-nav-box {
+    background-color: #F8F8F8;
+}
+
+h1.title.bb:before {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: 150px;
+    left: calc(50% - 75px);
+    height: 1px;
+    background-color: #999999;
+}
+
+.search-box {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+p.info {
+    color: #999999;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+.shop-list-box {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.shop-list-box .item {
+    width: 200px;
+    margin: 0 30px;
+    height: 210px;
+    box-sizing: content-box;
+    text-align: center;
+    cursor: pointer;
+}
+
+.shop-list-box .item:hover {
+    opacity: 0.8;
+}
+
+.shop-list-box .item img {
+    display: block;
+    width: 100%;
+    border: 1px solid #999999;
+}
+
+.shop-list-box .item span {
+    position: relative;
+    top: 4px;
+}
+
+.shop-list-box .item .shop-now {
+    line-height: 210px;
+    background-color: #999999;
+    color: #fff;
+}
+
+.body-box {
+    margin-top: 40px;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.body-box .news-letter-box {
+    display: flex;
+    width: 100%;
+}
+
+.body-box .news-letter-box .img {
+    width: 30%;
+    display: flex;
+    min-height: 200px;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.body-box .news-letter-box .img img {
+    width: 100%;
+}
+
+.body-box .news-letter-box .subscribe-box {
+    border-bottom: 1px solid #999999;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+}
+
+.body-box .news-letter-box .subscribe-box .title {
+    font-size: 34px;
+    color: #999999;
+}
+
+.body-box .news-letter-box .subscribe-box .subscribe {
+    display: flex;
+}
+
+.product-box {
+    display: flex;
+}
+
+.product-box .browse-all-box {
+    width: 30%;
+    padding: 20px;
+    border-right: 1px solid #999999;
+}
+
+.product-box .browse-all-box .title {
+    font-size: 45px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.product-box .browse-all-box p {
+    font-size: 20px;
+    color: #999999;
+}
+
+.product-box .product-list-box {
+    flex: 1;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.product-box .product-list-box .product {
+    width: 50%;
+    box-sizing: border-box;
+    text-underline: none;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.product-box .product-list-box .product img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #999999;
+    margin-right: 10px;
+}
+
+.product-box .product-list-box .product .info {
+    color: #999999;
+}
